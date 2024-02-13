@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reg {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Radio button styling */
+
+input[type = "radio"]{
+    margin-right: 5px;
+    margin-top: 18px;
+}
+
+
+button {
+    width: 100%;
+    background-color: #83a4d4;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #b6fbff;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    margin-bottom: 15px;
+}
+
+/* Login form container */
+.login {
+    text-align: center;
+}
+
+.login button {
+    margin-bottom: 25px;
+    text-decoration:none;
+    cursor: pointer;
+    width: 100px;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #83a4d4;
+    transition: 1s;
+}
+/* styling home page */
+
+.container{
+    position: relative;
+}
+.message{
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    border: none;
+    border-radius: 10px;
+}
+.message span{
+    color: #564caf;
+    font-size: 40px;
+    font-family: cursive;
+}
+.title_1{
+    color: #333;
+    font-size: 25px;
+}
+
+.home_btn{
+   margin-top:400px;
+    width: 100px;
+    color: black;
+    border-radius: 5px;
+    margin-left: 500px;
+}
